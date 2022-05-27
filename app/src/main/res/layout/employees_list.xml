@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mango"
+    android:id="@+id/employeeLayout"
+    >
+
+    <TextView
+        android:id="@+id/EmployeeTitle"
+        android:layout_width="301dp"
+        android:layout_height="55dp"
+        android:background="@color/grey"
+        android:text="          Employees"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="72dp"
+        android:layout_height="55dp"
+        android:background="@color/grey"
+        android:text=" Status"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Aiden"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Aiden Danko"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Andy"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Andy Tran"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/Barry"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Barry Clifton"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/Dylan"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Dylan Hoffman"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <TextView
+        android:id="@+id/Joey"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Joey Mack"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <TextView
+        android:id="@+id/Kyle"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Kyle Lynch"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <TextView
+        android:id="@+id/Oliver"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Oliver Patrick"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.536" />
+
+    <TextView
+        android:id="@+id/Luke"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Luke George"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.459" />
+
+    <TextView
+        android:id="@+id/Patrick"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Patrick Sizelove"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <TextView
+        android:id="@+id/Ryan"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Ryan Yates"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <TextView
+        android:id="@+id/Trevor"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Trevor Robbins"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/Wyatt"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Wyatt Trufont"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.844" />
+
+    <TextView
+        android:id="@+id/Zack"
+        android:layout_width="301dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="        Zack Trufont"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmployeeTitle"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <Button
+        android:id="@+id/status1"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status2"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status3"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status4"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status5"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status11"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status6"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status7"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status8"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status9"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status10"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status12"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87"
+        android:onClick="statusChange"/>
+
+    <Button
+        android:id="@+id/status13"
+        android:layout_width="72dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Aiden"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934"
+        android:onClick="statusChange"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
